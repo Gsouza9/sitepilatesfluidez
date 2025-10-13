@@ -1,0 +1,161 @@
+/* ===== Pilates Fluidez CSS ===== */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: #f5faff;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #0d47a1;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav a:hover {
+  opacity: 0.8;
+}
+.btn-whatsapp {
+  background-color: #25d366;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.btn-whatsapp:hover {
+  background-color: #1ebe57;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #42a5f5 0%, #90caf9 100%);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 1.1rem;
+}
+
+/* Seções */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.section h2 {
+  color: #0d47a1;
+  margin-bottom: 30px;
+}
+
+/* Benefícios */
+.benef-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+.benef-list li {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: #0d47a1;
+  font-weight: 500;
+}
+
+/* Cards Aulas */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-weight: 500;
+  color: #0d47a1;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+/* Galeria */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+.img-thumb {
+  background: #e3f2fd;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+/* Contato */
+.map {
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Responsividade */
+@media(max-width:768px){
+  .header .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
