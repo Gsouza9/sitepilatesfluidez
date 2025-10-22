@@ -2,5 +2,6 @@
 
 
 # TheCloset50
-Loja virtual de venda de roupas casuais, revendas de marcas famosas e cleções para se usar em ocasiões especias e no dia a dia.
+Loja virtual de venda de roupas casuais, revendas de marcas famosas e 
+coleções para se usar em ocasiões especias e no dia a dia.
 
